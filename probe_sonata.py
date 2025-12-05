@@ -1,6 +1,6 @@
 from custom.scannet import ScanNetDataset
 
-train_path = 'data/scannet_data/train'
+train_path = 'data/scannet_data/val'
 dataset = ScanNetDataset(data_root=train_path)
 print(f"Dataset length: {len(dataset)}")
 sample = dataset[0]
